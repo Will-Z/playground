@@ -8,7 +8,7 @@ import java.util.Set;
  * @author will
  * @date 2019/11/28
  */
-public class P136SingleNumber {
+public class P136_SingleNumber {
 
     static class Solution {
 
