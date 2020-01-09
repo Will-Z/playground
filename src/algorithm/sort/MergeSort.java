@@ -1,6 +1,8 @@
 package algorithm.sort;
 
 /**
+ * 归并排序 稳定
+ * 需要多开一个数组
  * @author will
  * @date 2019/12/24
  */
@@ -34,6 +36,8 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
+        System.out.println(new MergeSort().getClass().getSimpleName() + "  " + Thread.currentThread().getName());
+
         int[] a = new int[] {43, 2, 3, 10, 1, 884, 6, 9, 48, 84};
         int[] r = new int[10];
         new MergeSort().mSort(0, 9, a, r);
